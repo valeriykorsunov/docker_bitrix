@@ -1,12 +1,14 @@
 version: '3'
 
 services:
-  php: 
-    image: php:7.4-fpm
+  php:
+    # PHP version settings. Allowed value is php56, php71, php73, php74 or php80.
+    build: ./docker/php74
     volumes:
       - './www:/var/www/html'
+    restart: always
 
-  nginx: 
+  nginx:
     image: nginx:latest
     ports:
       - 80:80
@@ -14,9 +16,16 @@ services:
       - './www:/var/www/html'
       - './docker/nginx/conf.d:/etc/nginx/conf.d'
 
-  mysql: 
+  mysql:
     image: mysql:8
-    values: 
-        - './data/mysql:/var/lib/mysql'
+    volumes:
+      - './data/mysql:/var/lib/mysql'
+      - './docker/mysql:/etc/mysql/conf.d'
     environment:
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=bitrix
+      - MYSQL_USER=bitrix
+      - MYSQL_PASSWORD=bitrix
+      - TZ=Europe/Moscow
+    ports:
+      - 3306:3306
