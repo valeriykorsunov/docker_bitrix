@@ -21,6 +21,7 @@ services:
     volumes:
       - './data/mysql:/var/lib/mysql'
       - './docker/mysql:/etc/mysql/conf.d'
+    user: "1000"
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=bitrix
