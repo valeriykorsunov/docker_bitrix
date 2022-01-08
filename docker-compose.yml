@@ -6,6 +6,8 @@ services:
     build: ./docker/php74
     volumes:
       - './www:/var/www/html'
+    # для использования localhost локальной машины
+    # network_mode: "host"
     restart: always
 
   nginx:
