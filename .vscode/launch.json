@@ -11,7 +11,8 @@
 			"port": 9003,
 			"pathMappings": {
 				"/var/www/html/":"${workspaceFolder}/www/"
-			} 
+			},
+			"xdebugSettings": { "max_children": 999 }
 		}
 	]
 }

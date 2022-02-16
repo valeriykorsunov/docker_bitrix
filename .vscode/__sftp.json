@@ -1,0 +1,21 @@
+{
+	"name": "magwai_dev",
+	"host": "89.108.116.34",
+	"protocol": "sftp",
+	"port": 22,
+	"username": "root",
+	"context": "www/",
+	"remotePath": "/media/hdd/magdev/34gaz.develop.magwai.ru/www/",
+
+	"privateKeyPath": "~/.ssh/id_rsa",
+	"uploadOnSave": true,
+	"downloadOnOpen": true,
+	"ignore": [
+		".vscode",
+		".git",
+		".DS_Store",
+		"/www/bitrix",
+		"/www/upload",
+		"/www/bitrix_modules"
+	]
+}
