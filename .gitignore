@@ -1,4 +1,4 @@
 /www/bitrix/cache
 /www/bitrix/managed_cache
-# /data/mysql/*
+/data/mysql/*
 # !/data/mysql/bitrix/
