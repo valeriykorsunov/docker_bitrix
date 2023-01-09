@@ -7,7 +7,7 @@ services:
     # после запуска на компьютере создадуться images: 8_1_docker_project-php:latest , nginx:latest, mysql:8
     # можно использовать этот шаблон в других проетах
     # build: ./docker/php81
-    image: 8_1_docker_project-php:latest
+    image: 7_4_docker_project-php:latest
     volumes:
       - './www:/var/www/html'
     # для использования localhost локальной машины
@@ -24,6 +24,7 @@ services:
 
   mysql:
     image: mysql:8
+    container_name: mysql
     volumes:
       - './data/mysql:/var/lib/mysql'
       - './docker/mysql:/etc/mysql/conf.d'
