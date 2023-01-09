@@ -2,8 +2,12 @@ version: '3'
 
 services:
   php:
-    # PHP version settings. Allowed value is php56, php71, php73, php74 or php80.
-    build: ./docker/php74
+    # сперва нужно запустить сборку, для этого сделать копию папки и назвать "8_1_docker_project-php"
+    # раскоментировать build и закоментировать image
+    # после запуска на компьютере создадуться images: 8_1_docker_project-php:latest , nginx:latest, mysql:8
+    # можно использовать этот шаблон в других проетах
+    # build: ./docker/php81
+    image: 8_1_docker_project-php:latest
     volumes:
       - './www:/var/www/html'
     # для использования localhost локальной машины
