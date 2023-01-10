@@ -2,12 +2,8 @@ version: '3'
 
 services:
   php:
-    # сперва нужно запустить сборку, для этого сделать копию папки и назвать "8_1_docker_project-php"
-    # раскоментировать build и закоментировать image
-    # после запуска на компьютере создадуться images: 8_1_docker_project-php:latest , nginx:latest, mysql:8
-    # можно использовать этот шаблон в других проетах
-    # build: ./docker/php81
-    image: 7_4_docker_project-php:latest
+    # img-74_php, 
+    image: img-74_php:latest
     volumes:
       - './www:/var/www/html'
     # для использования localhost локальной машины
