@@ -2,4 +2,5 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-docker exec mysql sh -c 'exec mysql --databases bitrix -uroot -p"root"' < "$CURRENT_DIR/data/backup/local.sql"
+# Restore
+cat "$CURRENT_DIR/data/backup/local.sql" | docker exec -i mysql /usr/bin/mysql -u root --password=root bitrix
