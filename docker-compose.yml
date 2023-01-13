@@ -3,7 +3,7 @@ version: '3'
 services:
   php:
     # img-74_php, 
-    image: img-74_php:latest
+    image: img-74-php:latest
     volumes:
       - './www:/var/www/html'
     # для использования localhost локальной машины
