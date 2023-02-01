@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/updata/$(date +%Y%m%d_%H%M%S)"
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/update/$(date +%Y%m%d_%H%M%S)"
 if [ -z $1 ]; then
 	echo "начальный комит не указан, будет использоваться HEAD^"
 	if [ -z $2 ]; then
@@ -17,7 +17,7 @@ else
 		files=$(git diff --name-only $1 $2)
 	fi
 fi
-echo 'start---'
+echo '---start---'
 for file in $files; do
 	directory=$(dirname $file)
 	if [ ! -d "$dir/$directory" ]; then
@@ -26,7 +26,7 @@ for file in $files; do
 	echo "$file -> $dir/$file"
 	cp $file $dir/$file
 done
-echo 'finish---'
+echo '---finish---'
 echo 'обновления сохранены в парке: '$dir
 
 exit 0
