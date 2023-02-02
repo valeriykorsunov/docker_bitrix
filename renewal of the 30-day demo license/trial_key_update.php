@@ -17,7 +17,7 @@ function removeDir($path) {
     @rmdir($path);
 }
 if ($_POST) {
-	file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/admin/define copy.php', '<?define("TEMPORARY_CACHE", "' . $_POST["TEMPORARY_CACHE"] . '");?>');
+	file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/admin/define.php', '<?define("TEMPORARY_CACHE", "' . $_POST["TEMPORARY_CACHE"] . '");?>');
 	$settings = include $_SERVER['DOCUMENT_ROOT'] . "/bitrix/.settings.php";
 	$link = mysqli_connect(
 		$settings["connections"]["value"]["default"]["host"],
@@ -30,6 +30,7 @@ if ($_POST) {
 		print("Произошла ошибка при выполнении запроса");
 		exit;
 	}
+
 	array_map('removeDir',glob('./bitrix/managed_cache/*'));
 }
 ?>
