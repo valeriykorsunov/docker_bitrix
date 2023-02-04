@@ -1,7 +1,6 @@
 <?
-
 /**
- * Скрипт выводит ключи для продления триальной лицензии
+ * Скрипт выводит ключи для продления 30 дневной лицензии
  */
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 /** @var \CMain $APPLICATION */
