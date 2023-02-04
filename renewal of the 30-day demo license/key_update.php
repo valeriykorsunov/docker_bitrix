@@ -31,7 +31,7 @@ if ($_POST) {
 		exit;
 	}
 
-	array_map('removeDir',glob('./bitrix/managed_cache/*'));
+	array_map('removeDir',glob($_SERVER['DOCUMENT_ROOT'] . '/bitrix/managed_cache/*'));
 }
 ?>
 
