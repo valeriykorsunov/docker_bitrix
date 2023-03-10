@@ -1,21 +1,21 @@
-FROM phpdockerio/php74-fpm:latest
+FROM phpdockerio/php:8.1-fpm
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
-    php7.4-memcached \
-    php7.4-memcache \
-    php7.4-mbstring \
-    php7.4-mysql \
-    php7.4-intl \
-    php7.4-xdebug \
-    php7.4-interbase \
-    php7.4-soap \
-    php7.4-gd \
-    php7.4-imagick \
-    php7.4-opcache \
-    php7.4-zip \
-    php-pear php7.4-dev libmcrypt-dev gcc make autoconf libc-dev pkg-config \
-    && pecl install mcrypt-1.0.4 \
+    php8.1-memcached \
+    php8.1-memcache \
+    php8.1-mbstring \
+    php8.1-mysql \
+    php8.1-intl \
+    php8.1-interbase \
+    php8.1-soap \
+    php8.1-gd \
+    php8.1-imagick \
+    php8.1-opcache \
+    php8.1-zip \
+	php8.1-xdebug \
+    php-pear php8.1-dev libmcrypt-dev gcc make autoconf libc-dev pkg-config \
+    && pecl install mcrypt-1.0.5 \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
 # Sendmail
@@ -27,10 +27,8 @@ ENV PATH /usr/local/go/bin:$PATH
 RUN go get github.com/mailhog/mhsendmail
 RUN cp /root/go/bin/mhsendmail /usr/bin/mhsendmail
 
-# DO NOT install php7.4-xdebug package for site running in production! It will slow it down significantly.
-
-COPY ./php.ini /etc/php/7.4/fpm/conf.d/90-php.ini
-COPY ./php.ini /etc/php/7.4/cli/conf.d/90-php.ini
+COPY ./php.ini /etc/php/8.1/fpm/conf.d/90-php.ini
+COPY ./php.ini /etc/php/8.1/cli/conf.d/90-php.ini
 
 RUN usermod -u 1000 www-data
 

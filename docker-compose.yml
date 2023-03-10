@@ -3,7 +3,7 @@ version: '3'
 services:
   php:
     # img-74_php, 
-    image: img-74-php:latest
+    image: img-74_php:latest
     volumes:
       - './www:/var/www/html'
     # для использования localhost локальной машины
@@ -31,3 +31,9 @@ services:
       - TZ=Europe/Moscow
     ports:
       - 3306:3306
+      
+mailhog:
+    image: mailhog/mailhog:latest
+    ports:
+      - "1025:1025"
+      - "8025:8025"
