@@ -4,7 +4,6 @@
 
 В данном случае необходимо изменить версию PHP на 8.0, установить Битрикс, обновить модули до последней версии и можно вернуть обратно на PHP 8.1.
 
-
 или скачать тут
 
 https://www.1c-bitrix.ru/download/cms.php#tab-subsection-3https://www.1c-bitrix.ru/download/cms.php#tab-subsection-3
