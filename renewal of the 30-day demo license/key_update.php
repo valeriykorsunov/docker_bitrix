@@ -45,6 +45,7 @@ if ($_POST) {
 <? else : ?>
 	<? if ($result !== false) : ?>
 		<h2>Лицензия обновлена</h2>
+		<p>Файл key_update.php будет удален автоматически.</p>
 		<? @unlink(__FILE__); ?>
 	<? endif ?>
 <? endif; ?>
