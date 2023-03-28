@@ -45,5 +45,6 @@ if ($_POST) {
 <? else : ?>
 	<? if ($result !== false) : ?>
 		<h2>Лицензия обновлена</h2>
+		<? @unlink(__FILE__); ?>
 	<? endif ?>
 <? endif; ?>
