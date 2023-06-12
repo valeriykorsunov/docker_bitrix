@@ -14,8 +14,8 @@
 		".vscode",
 		".git",
 		".DS_Store",
-		"/www/bitrix",
-		"/www/upload",
-		"/www/bitrix_modules"
+		"/bitrix",
+		"/upload",
+		"/bitrix_modules"
 	]
 }
