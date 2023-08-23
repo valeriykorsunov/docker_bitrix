@@ -3,9 +3,10 @@ version: '3'
 services:
   php:
     # img-74_php, 
-    image: bx74_php:latest
+    image: bx74-php:latest
     volumes:
       - './www:/var/www/html'
+      - './docker/bx74/php.ini:/etc/php/7.4/fpm/conf.d/90-php.ini'
     # для использования localhost локальной машины
     # network_mode: "host"
     restart: always
