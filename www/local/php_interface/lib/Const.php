@@ -1,0 +1,8 @@
+<?
+
+namespace DogSitter;
+
+class Settings
+{
+	
+}

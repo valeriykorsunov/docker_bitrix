@@ -1,0 +1,9 @@
+/bitrix
+/cgi-bin
+/.htaccess
+/upload/resize_cache
+/upload/tmp
+.htaccess
+.htaccess.restore
+update/
+update.sh

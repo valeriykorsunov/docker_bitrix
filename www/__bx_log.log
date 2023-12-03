@@ -1,0 +1,825 @@
+*2023-10-24 06:32:11*
+/home/bitrix/www/ajax/payment_response.php:
+array(46) {
+  ["msgType"]=>
+  string(10) "authResult"
+  ["installation"]=>
+  string(7) "1470833"
+  ["country"]=>
+  string(2) "BB"
+  ["authCost"]=>
+  string(5) "90.00"
+  ["routeKey"]=>
+  string(15) "VISA_CREDIT-SSL"
+  ["transId"]=>
+  string(10) "3416327022"
+  ["countryMatch"]=>
+  string(1) "S"
+  ["rawAuthMessage"]=>
+  string(21) "cardbe.msg.authorised"
+  ["authCurrency"]=>
+  string(3) "GBP"
+  ["charenc"]=>
+  string(5) "UTF-8"
+  ["compName"]=>
+  string(21) "BOBBY THE BULLDOG LTD"
+  ["rawAuthCode"]=>
+  string(1) "A"
+  ["amountString"]=>
+  string(11) "&#163;90.00"
+  ["currency"]=>
+  string(3) "GBP"
+  ["tel"]=>
+  string(0) ""
+  ["isMobile"]=>
+  string(5) "false"
+  ["fax"]=>
+  string(0) ""
+  ["lang"]=>
+  string(2) "ru"
+  ["countryString"]=>
+  string(8) "Barbados"
+  ["email"]=>
+  string(12) "dfdf@rewr.yt"
+  ["transStatus"]=>
+  string(1) "Y"
+  ["_SP_charEnc"]=>
+  string(5) "UTF-8"
+  ["amount"]=>
+  string(5) "90.00"
+  ["address"]=>
+  string(17) "dfdfdfdf
+
+
+dfdfdf"
+  ["transTime"]=>
+  string(13) "1698129131390"
+  ["cost"]=>
+  string(5) "90.00"
+  ["town"]=>
+  string(6) "dfdfdf"
+  ["address3"]=>
+  string(0) ""
+  ["address2"]=>
+  string(0) ""
+  ["address1"]=>
+  string(8) "dfdfdfdf"
+  ["cartId"]=>
+  string(3) "496"
+  ["postcode"]=>
+  string(0) ""
+  ["ipAddress"]=>
+  string(13) "153.92.210.45"
+  ["cardType"]=>
+  string(4) "Visa"
+  ["authAmount"]=>
+  string(5) "90.00"
+  ["authMode"]=>
+  string(1) "A"
+  ["instId"]=>
+  string(7) "1470833"
+  ["displayAddress"]=>
+  string(17) "dfdfdfdf
+
+
+dfdfdf"
+  ["AAV"]=>
+  string(5) "00000"
+  ["testMode"]=>
+  string(3) "100"
+  ["name"]=>
+  string(14) "tttttttttttttt"
+  ["callbackPW"]=>
+  string(0) ""
+  ["region"]=>
+  string(0) ""
+  ["AVS"]=>
+  string(4) "1111"
+  ["desc"]=>
+  string(18) "6 months unlimited"
+  ["authAmountString"]=>
+  string(11) "&#163;90.00"
+}
+
+
+*2023-10-24 06:32:11*
+/home/bitrix/www/ajax/payment_response.php=string(1) "Y"
+
+
+*2023-10-24 06:32:11*
+/home/bitrix/www/ajax/payment_response.php=string(3) "496"
+
+
+*2023-10-24 06:44:27*
+/home/bitrix/www/ajax/payment_response.php:
+array(46) {
+  ["msgType"]=>
+  string(10) "authResult"
+  ["installation"]=>
+  string(7) "1470833"
+  ["country"]=>
+  string(2) "BH"
+  ["authCost"]=>
+  string(5) "90.00"
+  ["routeKey"]=>
+  string(15) "VISA_CREDIT-SSL"
+  ["transId"]=>
+  string(10) "3416329241"
+  ["countryMatch"]=>
+  string(1) "S"
+  ["rawAuthMessage"]=>
+  string(21) "cardbe.msg.authorised"
+  ["authCurrency"]=>
+  string(3) "GBP"
+  ["charenc"]=>
+  string(5) "UTF-8"
+  ["compName"]=>
+  string(21) "BOBBY THE BULLDOG LTD"
+  ["rawAuthCode"]=>
+  string(1) "A"
+  ["amountString"]=>
+  string(11) "&#163;90.00"
+  ["currency"]=>
+  string(3) "GBP"
+  ["tel"]=>
+  string(0) ""
+  ["isMobile"]=>
+  string(5) "false"
+  ["fax"]=>
+  string(0) ""
+  ["lang"]=>
+  string(2) "ru"
+  ["countryString"]=>
+  string(7) "Bahrain"
+  ["email"]=>
+  string(8) "we@ew.ru"
+  ["transStatus"]=>
+  string(1) "Y"
+  ["_SP_charEnc"]=>
+  string(5) "UTF-8"
+  ["amount"]=>
+  string(5) "90.00"
+  ["address"]=>
+  string(29) "4911830000000
+
+
+4911830000000"
+  ["transTime"]=>
+  string(13) "1698129867036"
+  ["cost"]=>
+  string(5) "90.00"
+  ["town"]=>
+  string(13) "4911830000000"
+  ["address3"]=>
+  string(0) ""
+  ["address2"]=>
+  string(0) ""
+  ["address1"]=>
+  string(13) "4911830000000"
+  ["cartId"]=>
+  string(3) "497"
+  ["postcode"]=>
+  string(0) ""
+  ["ipAddress"]=>
+  string(13) "153.92.210.45"
+  ["cardType"]=>
+  string(4) "Visa"
+  ["authAmount"]=>
+  string(5) "90.00"
+  ["authMode"]=>
+  string(1) "A"
+  ["instId"]=>
+  string(7) "1470833"
+  ["displayAddress"]=>
+  string(29) "4911830000000
+
+
+4911830000000"
+  ["AAV"]=>
+  string(5) "00000"
+  ["testMode"]=>
+  string(3) "100"
+  ["name"]=>
+  string(15) "werwerwerwerwer"
+  ["callbackPW"]=>
+  string(0) ""
+  ["region"]=>
+  string(0) ""
+  ["AVS"]=>
+  string(4) "1111"
+  ["desc"]=>
+  string(18) "6 months unlimited"
+  ["authAmountString"]=>
+  string(11) "&#163;90.00"
+}
+
+
+*2023-10-24 06:44:27*
+/home/bitrix/www/ajax/payment_response.php=string(1) "Y"
+
+
+*2023-10-24 06:44:27*
+/home/bitrix/www/ajax/payment_response.php=string(3) "497"
+
+
+*2023-10-30 05:15:55*
+/home/bitrix/www/ajax/payment_response.php:
+array(42) {
+  ["msgType"]=>
+  string(10) "authResult"
+  ["installation"]=>
+  string(7) "1470833"
+  ["country"]=>
+  string(0) ""
+  ["authCost"]=>
+  string(0) ""
+  ["countryMatch"]=>
+  string(1) "B"
+  ["rawAuthMessage"]=>
+  string(15) "trans.cancelled"
+  ["authCurrency"]=>
+  string(3) "GBP"
+  ["charenc"]=>
+  string(5) "UTF-8"
+  ["compName"]=>
+  string(21) "BOBBY THE BULLDOG LTD"
+  ["rawAuthCode"]=>
+  string(1) "C"
+  ["amountString"]=>
+  string(11) "&#163;60.00"
+  ["currency"]=>
+  string(3) "GBP"
+  ["tel"]=>
+  string(0) ""
+  ["isMobile"]=>
+  string(5) "false"
+  ["fax"]=>
+  string(0) ""
+  ["lang"]=>
+  string(2) "en"
+  ["countryString"]=>
+  string(0) ""
+  ["email"]=>
+  string(0) ""
+  ["transStatus"]=>
+  string(1) "C"
+  ["_SP_charEnc"]=>
+  string(5) "UTF-8"
+  ["amount"]=>
+  string(5) "60.00"
+  ["address"]=>
+  string(0) ""
+  ["cost"]=>
+  string(5) "60.00"
+  ["town"]=>
+  string(0) ""
+  ["address3"]=>
+  string(0) ""
+  ["address2"]=>
+  string(0) ""
+  ["address1"]=>
+  string(0) ""
+  ["cartId"]=>
+  string(3) "502"
+  ["postcode"]=>
+  string(0) ""
+  ["ipAddress"]=>
+  string(14) "[82.36.42.213]"
+  ["authAmount"]=>
+  string(0) ""
+  ["authMode"]=>
+  string(1) "A"
+  ["instId"]=>
+  string(7) "1470833"
+  ["displayAddress"]=>
+  string(0) ""
+  ["AAV"]=>
+  string(5) "00000"
+  ["testMode"]=>
+  string(3) "100"
+  ["name"]=>
+  string(0) ""
+  ["callbackPW"]=>
+  string(0) ""
+  ["region"]=>
+  string(0) ""
+  ["AVS"]=>
+  string(4) "0000"
+  ["desc"]=>
+  string(18) "3 months unlimited"
+  ["authAmountString"]=>
+  string(0) ""
+}
+
+
+*2023-10-30 05:15:55*
+/home/bitrix/www/ajax/payment_response.php=string(1) "C"
+
+
+*2023-10-30 05:15:55*
+/home/bitrix/www/ajax/payment_response.php=string(3) "502"
+
+
+***2023-10-30 07:04:10***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-10-31 00:07:02=string(357) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 88582881245
+Author's e-mail: adammk9@gmail.com
+Author's City: Gray Mountain
+
+Message:
+Earnings from email newsletters from $30,000 per month http://email-marketing-43550279.yowatashiworld.com/price?30627
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-02 09:40:21=string(357) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 85947536876
+Author's e-mail: jac_nick@bigpond.com.au
+Author's City: Hesperange
+
+Message:
+MAXIMIZE YOUR EARNINGS POTENTIAL WITH $30,000 PER DAY http://emailmarketing-12264270.yowatashiworld.com/shop?92230
+
+Response time : 
+
+
+"
+
+
+***2023-11-02 13:31:07***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+***2023-11-02 13:38:48***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-04 03:43:02=string(428) "Информационное сообщение сайта bobbythebulldog
+------------------------------------------
+
+Вам было отправлено сообщение через форму обратной связи
+
+Автор: Okeygorandom https://www.google.com/
+E-mail автора: scalycle+2251@mail.ru
+
+Текст сообщения:
+
+
+Сообщение сгенерировано автоматически.
+
+
+"
+
+
+*2023-11-05 21:37:43*
+/home/bitrix/www/local/php_interface/lib/account/UserLogin.php:
+array(16) {
+  ["LOGIN"]=>
+  string(8) "testUser"
+  ["EMAIL"]=>
+  string(25) "IURlRN.qqbhqd@chiffon.fun"
+  ["PASSWORD"]=>
+  string(10) "aP9ShAWJ1#"
+  ["CONFIRM_PASSWORD"]=>
+  string(10) "aP9ShAWJ1#"
+  ["NAME"]=>
+  string(14) "iMjpTYIdxhvdcP"
+  ["LAST_NAME"]=>
+  string(14) "iMjpTYIdxhvdcP"
+  ["GROUP_ID"]=>
+  array(0) {
+  }
+  ["CHECKWORD"]=>
+  string(32) "1usgc5ot9in2ahgd8n2vv6413wbvooy2"
+  ["~CHECKWORD_TIME"]=>
+  string(5) "now()"
+  ["ACTIVE"]=>
+  string(1) "Y"
+  ["CONFIRM_CODE"]=>
+  string(0) ""
+  ["LID"]=>
+  string(2) "s1"
+  ["LANGUAGE_ID"]=>
+  string(2) "en"
+  ["USER_IP"]=>
+  string(13) "95.164.37.227"
+  ["USER_HOST"]=>
+  string(14) "vps.hostry.com"
+  ["AUTO_TIME_ZONE"]=>
+  string(0) ""
+}
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-05 21:38:01=string(240) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: ynfczS.qqbhjt@chiffon.fun
+Author's City: 
+
+Message:
+pjyNARBnWmlLkmd
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-05 21:38:01=string(246) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: aaWFqz.qqbhjm@chiffon.fun
+Author's City: 
+
+Message:
+JCxmqyFbomWjXlfPRDjfV
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-06 09:29:02=string(401) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 89349943456
+Author's e-mail: anthony-couturier@live.fr
+Author's City: Stirling
+
+Message:
+URGENTLY! Your account has been replenished with $45,491.51. Urgently withdraw your earned money http://fundsrocketlanehubzoomrideway-1367184.tibmo.com/on?485
+
+Response time : 
+
+
+"
+
+
+***2023-11-10 06:16:57***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+***2023-11-10 06:45:57***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+***2023-11-11 02:01:48***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=NULL
+
+
+***2023-11-12 20:26:55***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+***2023-11-16 07:09:16***/home/bitrix/www/local/templates/main/components/bitrix/news.list/gallery_pets/template.php=string(3) "194"
+
+
+*2023-11-17 02:47:48*
+/home/bitrix/www/local/php_interface/lib/account/UserLogin.php:
+array(16) {
+  ["LOGIN"]=>
+  string(8) "testUser"
+  ["EMAIL"]=>
+  string(26) "ozLzrS.tmthpt@scranch.shop"
+  ["PASSWORD"]=>
+  string(10) "16anLTtP8!"
+  ["CONFIRM_PASSWORD"]=>
+  string(10) "16anLTtP8!"
+  ["NAME"]=>
+  string(14) "DkFYXxKhYmVsRK"
+  ["LAST_NAME"]=>
+  string(14) "DkFYXxKhYmVsRK"
+  ["GROUP_ID"]=>
+  array(0) {
+  }
+  ["CHECKWORD"]=>
+  string(32) "j4lzygjajdf81vuf5efsburcz0icaxud"
+  ["~CHECKWORD_TIME"]=>
+  string(5) "now()"
+  ["ACTIVE"]=>
+  string(1) "Y"
+  ["CONFIRM_CODE"]=>
+  string(0) ""
+  ["LID"]=>
+  string(2) "s1"
+  ["LANGUAGE_ID"]=>
+  string(2) "en"
+  ["USER_IP"]=>
+  string(13) "80.85.152.134"
+  ["USER_HOST"]=>
+  string(26) "astridbagner.pserver.space"
+  ["AUTO_TIME_ZONE"]=>
+  string(0) ""
+}
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-17 02:48:01=string(255) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: IWxrFm.tmthcc@scranch.shop
+Author's City: 
+
+Message:
+PJxXntbjrczLYqcyEsDwjbjNVKCdV
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-17 02:48:01=string(244) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: tKLtCN.tmthcw@scranch.shop
+Author's City: 
+
+Message:
+DVSJBQEyJJLvLjjAJp
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-20 12:02:08=string(280) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 88316221868
+Author's e-mail: septon36giannixi@gmail.com
+Author's City: Mtskheta
+
+Message:
+Kaixo, zure prezioa jakin nahi nuen.
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-23 14:10:07=string(444) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 87897952231
+Author's e-mail: emanashaari9@gmail.com
+Author's City: Hesperange
+
+Message:
+Investing for Everyone: Earnings from $9000 per Day Simplified https://marketplacebest888.sell.app/product/what-experts-are-silent-about-or-top-17-cryptocurrencies-that-will-soon-fly-to-the-moon?8893193
+
+Response time : 
+
+
+"
+
+
+*2023-11-26 01:23:23*
+/home/bitrix/www/local/php_interface/lib/account/UserLogin.php:
+array(16) {
+  ["LOGIN"]=>
+  string(8) "testUser"
+  ["EMAIL"]=>
+  string(26) "cXQnsH.thqqmpp@borasca.xyz"
+  ["PASSWORD"]=>
+  string(10) "kN8IjrPA1@"
+  ["CONFIRM_PASSWORD"]=>
+  string(10) "kN8IjrPA1@"
+  ["NAME"]=>
+  string(13) "bFIOaJxtdFPSU"
+  ["LAST_NAME"]=>
+  string(13) "bFIOaJxtdFPSU"
+  ["GROUP_ID"]=>
+  array(0) {
+  }
+  ["CHECKWORD"]=>
+  string(32) "x1k4sqt254nc8fd232qkm53zmdydosss"
+  ["~CHECKWORD_TIME"]=>
+  string(5) "now()"
+  ["ACTIVE"]=>
+  string(1) "Y"
+  ["CONFIRM_CODE"]=>
+  string(0) ""
+  ["LID"]=>
+  string(2) "s1"
+  ["LANGUAGE_ID"]=>
+  string(2) "en"
+  ["USER_IP"]=>
+  string(13) "45.128.232.56"
+  ["USER_HOST"]=>
+  string(24) "56.232.128.45.pfcloud.io"
+  ["AUTO_TIME_ZONE"]=>
+  string(0) ""
+}
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-26 01:24:01=string(253) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: rTVuEc.thqqmch@borasca.xyz
+Author's City: 
+
+Message:
+PocqrKSbIJkAqkADpUSjAJLzUet
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-26 01:24:01=string(248) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: JUQbQp.thqqmpc@borasca.xyz
+Author's City: 
+
+Message:
+RwkoxFinouJlccRihEwpHH
+
+Response time : 
+
+
+"
+
+
+*2023-11-27 22:06:27*
+/home/bitrix/www/ajax/payment_response.php:
+array(42) {
+  ["msgType"]=>
+  string(10) "authResult"
+  ["installation"]=>
+  string(7) "1470833"
+  ["country"]=>
+  string(0) ""
+  ["authCost"]=>
+  string(0) ""
+  ["countryMatch"]=>
+  string(1) "B"
+  ["rawAuthMessage"]=>
+  string(15) "trans.cancelled"
+  ["authCurrency"]=>
+  string(3) "GBP"
+  ["charenc"]=>
+  string(5) "UTF-8"
+  ["compName"]=>
+  string(21) "BOBBY THE BULLDOG LTD"
+  ["rawAuthCode"]=>
+  string(1) "C"
+  ["amountString"]=>
+  string(11) "&#163;25.00"
+  ["currency"]=>
+  string(3) "GBP"
+  ["tel"]=>
+  string(0) ""
+  ["isMobile"]=>
+  string(5) "false"
+  ["fax"]=>
+  string(0) ""
+  ["lang"]=>
+  string(2) "en"
+  ["countryString"]=>
+  string(0) ""
+  ["email"]=>
+  string(0) ""
+  ["transStatus"]=>
+  string(1) "C"
+  ["_SP_charEnc"]=>
+  string(5) "UTF-8"
+  ["amount"]=>
+  string(5) "25.00"
+  ["address"]=>
+  string(0) ""
+  ["cost"]=>
+  string(5) "25.00"
+  ["town"]=>
+  string(0) ""
+  ["address3"]=>
+  string(0) ""
+  ["address2"]=>
+  string(0) ""
+  ["address1"]=>
+  string(0) ""
+  ["cartId"]=>
+  string(3) "518"
+  ["postcode"]=>
+  string(0) ""
+  ["ipAddress"]=>
+  string(14) "[82.36.42.213]"
+  ["authAmount"]=>
+  string(0) ""
+  ["authMode"]=>
+  string(1) "A"
+  ["instId"]=>
+  string(7) "1470833"
+  ["displayAddress"]=>
+  string(0) ""
+  ["AAV"]=>
+  string(5) "00000"
+  ["testMode"]=>
+  string(3) "100"
+  ["name"]=>
+  string(0) ""
+  ["callbackPW"]=>
+  string(0) ""
+  ["region"]=>
+  string(0) ""
+  ["AVS"]=>
+  string(4) "0000"
+  ["desc"]=>
+  string(17) "1 month unlimited"
+  ["authAmountString"]=>
+  string(0) ""
+}
+
+
+*2023-11-27 22:06:27*
+/home/bitrix/www/ajax/payment_response.php=string(1) "C"
+
+
+*2023-11-27 22:06:27*
+/home/bitrix/www/ajax/payment_response.php=string(3) "518"
+
+
+*2023-11-30 13:38:04*
+/home/bitrix/www/local/php_interface/lib/account/UserLogin.php:
+array(16) {
+  ["LOGIN"]=>
+  string(8) "testUser"
+  ["EMAIL"]=>
+  string(29) "CEBiaj.dtdtwm@gemination.hair"
+  ["PASSWORD"]=>
+  string(10) "uM1ELfjN7#"
+  ["CONFIRM_PASSWORD"]=>
+  string(10) "uM1ELfjN7#"
+  ["NAME"]=>
+  string(4) "Trey"
+  ["LAST_NAME"]=>
+  string(4) "Trey"
+  ["GROUP_ID"]=>
+  array(0) {
+  }
+  ["CHECKWORD"]=>
+  string(32) "gv0wz7lp8j2usqxz1goccg7ovjqd0wvf"
+  ["~CHECKWORD_TIME"]=>
+  string(5) "now()"
+  ["ACTIVE"]=>
+  string(1) "Y"
+  ["CONFIRM_CODE"]=>
+  string(0) ""
+  ["LID"]=>
+  string(2) "s1"
+  ["LANGUAGE_ID"]=>
+  string(2) "en"
+  ["USER_IP"]=>
+  string(13) "192.144.37.32"
+  ["USER_HOST"]=>
+  string(13) "192.144.37.32"
+  ["AUTO_TIME_ZONE"]=>
+  string(0) ""
+}
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-30 13:39:04=string(248) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: pJDKYC.dtdtwc@gemination.hair
+Author's City: Morgan
+
+Message:
+Sloan Wiggins
+
+Response time : 
+
+
+"
+
+
+custom_mail = #EMAIL_TO#@ = 2023-11-30 13:39:04=string(246) "Added a new review on the site bobbythebulldog
+------------------------------------------
+Author's name: 
+Author's phone: 1
+Author's e-mail: jhXbTJ.dtdtww@gemination.hair
+Author's City: Mora
+
+Message:
+Lisa Odonnell
+
+Response time : 
+
+
+"
+
+

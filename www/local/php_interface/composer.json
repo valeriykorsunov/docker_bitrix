@@ -1,0 +1,7 @@
+{
+	"require" : 
+	{
+		"dnode/dnode":"^0.2.0",
+		"stripe/stripe-php": "^13.3.0"
+	}
+}
