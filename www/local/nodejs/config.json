@@ -1,6 +1,0 @@
-{
-	"port": "3001",
-	"secure": true, 
-	"privkey": "/home/bitrix/dehydrated/certs/www.bobbythebulldog.com/privkey.pem",
-	"fullchain": "/home/bitrix/dehydrated/certs/www.bobbythebulldog.com/fullchain.pem"
-}

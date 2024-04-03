@@ -1,3 +1,0 @@
-xdebug_start_trace('/home/bitrix/ext_www/bulldog.bxwork.ru/local/log/fac.xt');
-
-xdebug_stop_trace();
